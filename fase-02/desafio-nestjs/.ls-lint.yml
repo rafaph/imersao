@@ -1,0 +1,23 @@
+ls:
+  .dir: kebab-case
+  .js: kebab-case
+  .json: kebab-case
+  .build.json: kebab-case
+  .ts: kebab-case
+  .controller.ts: kebab-case
+  .usecase.ts: kebab-case
+  .repository.ts: kebab-case
+  .request.ts: kebab-case
+  .response.ts: kebab-case
+  .module.ts: kebab-case
+  .error.ts: kebab-case
+  .spec.ts: kebab-case
+
+ignore:
+  - .idea
+  - .ls-lint.yml
+  - node_modules
+  - .docker
+  - dist
+  - tsconfig.build.json
+  - jest.config.js
